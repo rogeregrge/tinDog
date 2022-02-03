@@ -1,0 +1,159 @@
+body{
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 1% 15% 10%;
+}
+
+
+.iphone-mockup{
+    position: absolute;
+    transform: rotate(25deg);
+    right: 20%;
+}
+
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+}
+
+.row{
+    padding: 5% 5%;
+}
+
+h1 { 
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3rem; 
+    color: white;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-family:'Montserrat-bold', sans-serif; 
+    font-size:3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+h3{  
+    font-family: 'Montserrat-bold', sans-serif; 
+    font-size: 3rem; 
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+#features{
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.sponsor{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-text{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: 3%;
+
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icon{
+    margin: 20px 10px;
+}
+
+
+
+
+@media (max-width: 1025px){
+    #title{
+        text-align: center;
+    }
+
+    .iphone-mockup{
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1168px) {
+    .iphone-mockup{
+        right: 10%;
+    }
+}
